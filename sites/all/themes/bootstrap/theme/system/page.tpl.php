@@ -165,4 +165,21 @@
 </div>
 <footer class="footer container">
   <?php print render($page['footer']); ?>
+  {echo __FILE__;} 
+
+  <?php
+
+  
+  for($i=567; $i <= 699; $i++)
+
+    if($i % 2) {
+        echo "$i <br />";
+    }
+    for($b=800; $b<= 1001; $b++) 
+{
+      if ($b % 2) {   
+      echo"$b <br/>";
+    }
+    
+} ?>
 </footer>
