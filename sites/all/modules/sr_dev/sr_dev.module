@@ -1,0 +1,12 @@
+
+
+function sr_dev_preprocess_page(&$variables) {
+   $bootstrap_panels = <div class="panel panel-default">
+	<div  class = "panel-heading"> Sr. Drupal Developer </div> 
+	<div class = "panel-body"> Welcome ot the USGS </div>
+}
+
+$bootstrap_panels= 'themes/page.tpl.php';
+
+
+
